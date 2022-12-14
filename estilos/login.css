@@ -1,0 +1,38 @@
+body{
+    font-family: system-ui;
+    background-image: linear-gradient(45deg, rgb(172, 69, 231), rgb(76, 14, 112));
+}
+
+.box-login{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    padding: 80px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.envio{
+    background-image: linear-gradient(to right, rgb(60, 226, 110), rgb(130, 43, 180));
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.envio:hover{
+    background-image: linear-gradient(to right, rgb(50, 216, 100), rgb(120, 33, 170));
+}

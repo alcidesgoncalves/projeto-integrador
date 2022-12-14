@@ -1,0 +1,53 @@
+body{
+    font-family: system-ui;
+    background-image: linear-gradient(45deg, rgb(172, 69, 231), rgb(76, 14, 112));
+    background-attachment: fixed;
+}
+
+.box{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    padding: 5%;
+    width: 80vw;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#materias{
+    display: inline-block;
+    margin: 15px;
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 10px; 
+    text-align: center;
+    width: 67px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.exit{
+    color: white;
+    background-color: rgba(226, 11, 11, 0.8);
+    position: absolute;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+.exit:hover{
+    background-color: rgba(228, 52, 52, 0.8);
+}
+#sair{
+    color: white;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

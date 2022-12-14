@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(45deg, rgb(172, 69, 231), rgb(76, 14, 112));
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    left: 50%;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+}
+fieldset{
+    border: 3px solid #4B0082;
+}
+legend{
+    border: 1px solid #4B0082;
+    padding: 10px;
+    text-align: center;
+    background-color: #4B0082;
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 13px;
+    color: #7d1ca7;
+}
+
+#submit{
+    background-image: linear-gradient(to right, rgb(60, 226, 110), rgb(130, 43, 180));
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(50, 216, 100), rgb(120, 33, 170));
+}
